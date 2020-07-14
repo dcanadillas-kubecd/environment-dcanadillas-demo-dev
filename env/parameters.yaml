@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:dcanadillas-demo/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dcanadillas@hashicorp.com
+  token: vault:dcanadillas-demo/pipelineUser:token
+  username: dcanadillas-kubecd
+prow:
+  hmacToken: vault:dcanadillas-demo/prow:hmacToken
